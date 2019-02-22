@@ -1,0 +1,29 @@
+/**
+- root
+*/
+:root {
+  --theme-color: #cc2e2e;
+  --theme-secondary-color: #ffffff;
+}
+
+/**
+- cover
+*/
+.cover {
+  color: #fff;
+}
+
+/**
+- cover last button
+*/
+section.cover .cover-main > p a {
+  background-color: transparent !important;
+  border-color: var(--theme-secondary-color) !important;
+  color: var(--theme-secondary-color) !important;
+}
+
+section.cover .cover-main > p a:hover {
+  background-color: #fff !important;
+  color: var(--theme-color) !important;
+  opacity: 1 !important;
+}

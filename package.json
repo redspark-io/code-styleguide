@@ -1,0 +1,14 @@
+{
+  "name": "docsify-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docsify serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "docsify": "^4.9.1"
+  }
+}
