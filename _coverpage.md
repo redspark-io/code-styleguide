@@ -6,9 +6,9 @@
 
 - Selecione a linguagem abaixo:
 
-[Java](java/)
-[Javascript](javascript/)
-[Swift](swift/)
-[Kotlin](kotlin/)
+[Java](languages/java/)
+[Javascript](languages/javascript/)
+[Swift](languages/swift/)
+[Kotlin](languages/kotlin/)
 
 ![color](#cc2e2e)
