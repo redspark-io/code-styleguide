@@ -14,7 +14,7 @@ This will install the right node version for the project and set it as the curre
 
 # Contributing
 
-To run the project in yout machine, run:
+To run the project in your machine, run:
 
 ```
 $ npm install
