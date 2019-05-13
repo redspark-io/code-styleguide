@@ -1,0 +1,6 @@
+#!/bin/sh
+java -jar ./.git/hooks/checkstyle-8.20-all.jar -c ./.git/hooks/redspark_checks.xml $(git diff --staged --name-only)
+if [ $? -ne 0 ]; then
+    echo -e "Falha no checkstyle. \033[31mNenhum commit será realizado\e[0m"
+    exit 1
+fi
