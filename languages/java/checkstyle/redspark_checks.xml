@@ -32,9 +32,16 @@
         <property name="eachLine" value="true"/>
     </module>
 
-
     <module name="TreeWalker">
+
+        <module name="Regexp">
+            <property name="format" value="[\}\;][^\n]*\n\}"/>
+            <property name="message"
+                 value="Antes do fim de um bloco de classe/interface/enum é necessária 1 linha vazia."/>
+        </module>
+
         <module name="EmptyLineSeparatorCheck">
+            <property name="allowMultipleEmptyLines" value="false" />
             <property name="allowMultipleEmptyLinesInsideClassMembers" value="false"/>
         </module>
         <module name="NoWhitespaceBefore">
